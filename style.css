@@ -450,11 +450,10 @@ address {
     float: left;
     margin-bottom: 0px;
     text-align: left;
-    
 }
 
 .navbar-nav>li {
-    padding: 0px 29px 0px 20px;
+    padding: 0px 29px 0px 29px;
 }
 
 .navbar-nav>li>a {
@@ -1340,6 +1339,15 @@ address {
     height: 100%;
     opacity: 0.9;
 }
+.moverspackers-services-grid figure>a:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
 
 .moverspackers-services-grid ul li:hover figure>a:before {
     opacity: 0.6;
@@ -1386,6 +1394,97 @@ address {
 }
 
 .moverspackers-services-grid figure figcaption h5:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: -9px;
+    width: 30px;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 0px 0px 0px -15px;
+}
+
+/*gallery Grid*/
+.moverspackers-gallery-grid figure,
+.moverspackers-gallery-grid figure>a,
+.moverspackers-gallery-grid figure a img {
+    float: left;
+    width: 100%;
+}
+
+.moverspackers-gallery-grid figure {
+    margin: 0px;
+}
+
+.moverspackers-gallery-grid figure>a {
+    position: relative;
+    overflow: hidden;
+}
+
+.moverspackers-gallery-grid figure>a:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+.moverspackers-gallery-grid figure>a:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+.moverspackers-gallery-grid ul li:hover figure>a:before {
+    opacity: 0.6;
+}
+
+.moverspackers-gallery-grid figure figcaption {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    margin: -36px 0px 0px 0px;
+}
+
+.moverspackers-gallery-grid ul li:hover figure figcaption {
+    margin: -18px 0px 0px 0px;
+}
+
+.moverspackers-gallery-grid figure figcaption>a {
+    font-size: 36px;
+    display: inline-block;
+    margin: 0px 0px 20px;
+}
+
+.moverspackers-gallery-grid figure figcaption>a.moverspackers-transport {
+    font-size: 44px;
+}
+
+.moverspackers-gallery-grid ul li:hover figure figcaption>a {
+    color: #ffffff;
+}
+
+.moverspackers-gallery-grid figure figcaption h5 {
+    color: #ffffff;
+    margin: 0px;
+    font-weight: bold;
+    position: relative;
+}
+
+.moverspackers-gallery-grid ul li:hover figure figcaption h5,
+.moverspackers-gallery-grid ul li:hover figure figcaption h5:before {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.moverspackers-gallery-grid figure figcaption h5:before {
     content: '';
     position: absolute;
     left: 50%;
