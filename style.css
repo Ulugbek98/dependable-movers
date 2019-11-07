@@ -450,10 +450,11 @@ address {
     float: left;
     margin-bottom: 0px;
     text-align: left;
+    
 }
 
 .navbar-nav>li {
-    padding: 0px 29px 0px 29px;
+    padding: 0px 29px 0px 20px;
 }
 
 .navbar-nav>li>a {
