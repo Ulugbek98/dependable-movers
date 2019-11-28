@@ -578,6 +578,7 @@ address {
     font-weight: bold;
     margin: 20px 0px 0px 0px;
     letter-spacing: 1px;
+    cursor:pointer;
 }
 
 /*Banner*/
@@ -1029,7 +1030,7 @@ address {
 
 .moverspackers-get-quote-thumb img {
     position: absolute;
-    right: 0;
+    right: 0px;
     top: -59px;
     width: 95%;
 }
