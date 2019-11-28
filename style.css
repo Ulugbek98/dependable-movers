@@ -575,10 +575,23 @@ address {
     font-family: 'Roboto', sans-serif;
     padding: 10px 22px;
     color: #ffffff;
-    font-weight: bold;
+    font-weight: 800;
     margin: 20px 0px 0px 0px;
     letter-spacing: 1px;
-    cursor:pointer;
+    cursor: pointer;
+}
+
+.submit-btn {
+    padding: 4px 22px 6px;
+    border: 1px solid white;
+    background: transparent;
+    font-weight: 600;
+    text-transform: uppercase;;
+    font-size: 15px;
+    color: #ffffff;
+}
+.submit-btn:hover{
+    background-color: #ffb118;
 }
 
 /*Banner*/
@@ -1340,6 +1353,7 @@ address {
     height: 100%;
     opacity: 0.9;
 }
+
 .moverspackers-services-grid figure>a:before {
     content: '';
     position: absolute;
@@ -1431,6 +1445,7 @@ address {
     height: 100%;
     opacity: 0.9;
 }
+
 .moverspackers-gallery-grid figure>a:before {
     content: '';
     position: absolute;
