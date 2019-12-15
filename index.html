@@ -242,12 +242,12 @@
                                 </div>
                                 <form action="telegram.php" method="POST">
                                     <ul>
-                                        <li><textarea name="user_message" placeholder="Your Message"></textarea></li>
-                                        <li><input name="user_name" placeholder="Your Name" type="text"></li>
-                                        <li><input name="user_adress" placeholder="Email Address" tabindex="0"
+                                        <li><textarea name="message" placeholder="Your Message"></textarea></li>
+                                        <li><input required name="name" placeholder="Your Name" type="text"></li>
+                                        <li><input required name="email" placeholder="Email Address" tabindex="0"
                                                 type="email"></li>
-                                        <li><input name="user_number" placeholder="Your  Number" tabindex="0"
-                                                type="text"></li>
+                                        <li><input required name="phone" placeholder="Your  Number" tabindex="0"
+                                               type="text"></li>
                                         <li><input name="move_type" placeholder="Type of Move" tabindex="0" type="text">
                                         </li>
                                         <li><input name="from_z" placeholder="From Zip" type="text"></li>
