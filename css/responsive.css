@@ -482,10 +482,34 @@
     }
 
     /*Content*/
+    .moverspackers-banner-caption::after {
+        background: none;
+    }
     .moverspackers-banner-caption {
+        display: block;
+    }
+    .slick-slide img.moverspackers-banner-thumb {
         display: none;
     }
-
+    .moverspackers-banner-text{
+        width: 100%;
+        top:50px;
+    }
+    .banner-transparent::before{
+        width: 100%;
+    }
+    .moverspackers-banner-text h1{
+        font-size: 14px;
+        margin: 0;line-height: 23px;
+    }
+    .moverspackers-banner-text h5{
+        font-size: 10px;
+        margin-top: 40px;
+    }
+    .moverspackers-banner-text p{
+        margin: 0;
+        font-size: 11px;
+    }
     .moverspackers-strip-info li::before {
         content: none;
     }
