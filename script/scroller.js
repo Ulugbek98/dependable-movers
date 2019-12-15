@@ -189,5 +189,5 @@ else if (viewportwidth == 320) {
 }
 /* ++++++++++++++++++++++++++++ 320px - END ++++++++++++++++++++++++++++ */
 else {
-    alert("else" + "  "+viewportwidth + "px")
+    console.log('privet')
 }
