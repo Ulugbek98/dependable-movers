@@ -8,9 +8,10 @@
     <meta name="google-site-verification" content="qvSfK80UXD3a6nvwRbHNUuN367lggG_fmp6o8btuVXg" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Silkway</title>
+    <title>Silkwaymoving - Movers in California </title>
 
     <!-- Css Files -->
+    <link rel="icon" href="./SILKWAY.ico" type="image/x-icon">
     <link href="css\bootstrap.css" rel="stylesheet">
     <link href="css\font-awesome.css" rel="stylesheet">
     <link href="css\flaticon.css" rel="stylesheet">
@@ -20,19 +21,26 @@
     <link href="css\color.css" rel="stylesheet">
     <link href="css\responsive.css" rel="stylesheet">
     <script type="text/javascript" src="script\jquery.js"></script>
-
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+
+    </style>
+<script>
+
+</script>
 </head>
 
 
 <body>
 
+    <div class="loader">
+        <div class="loader_inner"></div>
+    </div>
     <!--// Main Wrapper \\-->
     <div class="moverspackers-main-wrapper">
 
@@ -65,7 +73,7 @@
             <div class="moverspackers-main-header">
                 <div class="container">
                     <div class="row">
-                        <aside class="col-md-3"><a href="index.html" class="logo"> <img src="./header-logo.png" alt="">
+                        <aside class="col-md-3"><a href="index.html" class="logo" style="padding-bottom: 0px;padding-top: 10px;"> <img src="./header-logo.png" alt="">
                             </a></aside>
                         <aside class="col-md-9">
                             <nav class="navbar navbar-default">
@@ -82,24 +90,25 @@
                                     <ul class="nav navbar-nav">
                                         <li class="active"><a href="index.html">Home</a></li>
                                         <li>
-                                            <a class="servic">Services</a>
+                                            <a href="#services" onclick="slowScroll('#services')">Services</a>
                                         </li>
                                         <li>
-                                            <a class="proc">Process</a>
+                                            <a href="#process" onclick="slowScroll('#process')">Process</a>
                                         </li>
                                         <li>
-                                            <a class="prov">Provide</a>
+                                            <a href="#provide" onclick="slowScroll('#provide')">Provide</a>
                                         </li>
                                         <li>
-                                            <a class="galler">Gallery</a>
+                                            <a href="#gallery" onclick="slowScroll('#gallery')">Gallery</a>
                                         </li>
                                         <li>
-                                            <a class="tea">Team</a>
+                                            <a href="#team" onclick="slowScroll('#team')">Team</a>
                                         </li>
                                     </ul>
                                 </div>
                             </nav>
-                            <a class="moverspackers-simple-btn">Get A Quote</a>
+                            <a class="moverspackers-simple-btn" href="#getquote" onclick="slowScroll('#getquote')">Get A
+                                Quote</a>
                         </aside>
                     </div>
                 </div>
@@ -132,18 +141,36 @@
                     </div>
                 </div>
             </div>
+            <div class="moverspackers-banner-layer">
+                <img src="./images/Skladisce.jpg" alt="">
+                <span class="banner-transparent"></span>
+                <div class="moverspackers-banner-caption">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="moverspackers-banner-text">
+                                    <h5>We Provide</h5>
+                                    <h1>Movers you can always  <span>depend on!</span> 
+                                       </h1>
+                                    <p> Thinking ahead changes everything.  Ensure a successful move by working with the pros!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!--// Slider \\-->
         </div>
         <!--// Main Banner \\-->
 
         <!--// Main Content \\-->
-        <div class="moverspackers-main-content">
+        <div class="moverspackers-main-content" id="services">
 
             <!--// Main Section \\-->
             <div class="moverspackers-main-section moverspackers-servicesfull">
                 <div class="container">
-                    <div class="row" id="servic">
+                    <div class="row">
 
                         <div class="col-md-12">
                             <div class="moverspackers-fancy-title">
@@ -227,14 +254,14 @@
 
 
             <!--// Main Section \\-->
-            <div class="moverspackers-main-section moverspackers-get-quote-formfull">
+            <div class="moverspackers-main-section moverspackers-get-quote-formfull" id="getquote">
                 <div class="container">
                     <div class="row">
 
                         <div class="col-md-8">
                             <div class="moverspackers-get-quote-form">
                                 <div class="moverspackers-fancy-title">
-                                    <h2 id="getquote">Get a Quote</h2>
+                                    <h2>Get a Quote</h2>
                                     <p>Give us a call or come visit us in person and you will see what makes us one of
                                         the leading moving companie</p>
                                 </div>
@@ -245,12 +272,12 @@
                                         <li><input required name="email" placeholder="Email Address" tabindex="0"
                                                 type="email"></li>
                                         <li><input required name="phone" placeholder="Your  Number" tabindex="0"
-                                               type="text"></li>
+                                                type="text"></li>
                                         <li><input name="move_type" placeholder="Type of Move" tabindex="0" type="text">
                                         </li>
                                         <li><input name="from_z" placeholder="From Zip" type="text"></li>
                                         <li><input name="to_z" placeholder="To Zip" type="text"></li>
-                                        <li><button class="submit-btn"type="submit">Submit Now</button></li>
+                                        <li><button class="submit-btn" type="submit">Submit Now</button></li>
                                     </ul>
                                 </form>
                             </div>
@@ -265,8 +292,8 @@
             <!--// Main Section \\-->
 
             <!--// Main Section \\-->
-            <div class="moverspackers-main-section moverspackers-process-listfull">
-                <div class="container" id="proc">
+            <div class="moverspackers-main-section moverspackers-process-listfull" id="process">
+                <div class="container">
                     <div class="row">
 
                         <div class="col-md-12">
@@ -319,8 +346,8 @@
             <!--// Main Section \\-->
 
             <!--// Main Section \\-->
-            <div class="moverspackers-main-section moverspackers-services-gridfull">
-                <div class="container" id="prov">
+            <div class="moverspackers-main-section moverspackers-services-gridfull" id="provide">
+                <div class="container">
                     <div class="row">
 
                         <div class="col-md-12">
@@ -411,8 +438,8 @@
 
 
             <!--// Main Section \\-->
-            <div class="moverspackers-main-section moverspackers-services-gridfull">
-                <div class="container" id="galler">
+            <div class="moverspackers-main-section moverspackers-services-gridfull" id="gallery">
+                <div class="container">
                     <div class="row">
 
                         <div class="col-md-12">
@@ -451,15 +478,11 @@
 
                                         </figure>
                                     </li>
-
                                     <li class="col-md-4">
                                         <figure><a href="#"><img src="./images/IMG_7863.JPG" alt=""></a>
 
                                         </figure>
                                     </li>
-
-
-
                                 </ul>
                             </div>
                         </div>
@@ -469,7 +492,7 @@
             </div>
             <!--// Main Section \\-->
             <!--// Main Section \\-->
-            <div class="moverspackers-main-section moverspackers-modern-teamfull" id="tea">
+            <div class="moverspackers-main-section moverspackers-modern-teamfull" id="team">
                 <div class="container">
                     <div class="row">
 
@@ -483,7 +506,7 @@
                             <div class="moverspackers-team moverspackers-modern-team">
                                 <ul class="row">
                                     <li class="col-md-3">
-                                        <figure><a href="#"><img src="extra-images\team-modern-img1.jpeg" alt=""></a>
+                                        <figure><a href="#"><img src="./images/man.jpg" alt=""></a>
                                             <figcaption class="moverspackers-bgcolor">
                                                 <h6><a href="#">George Smith</a></h6>
                                                 <span>CEO / Founder</span>
@@ -502,7 +525,7 @@
                                         </figure>
                                     </li>
                                     <li class="col-md-3">
-                                        <figure><a href="#"><img src="extra-images\team-modern-img2.jpeg" alt=""></a>
+                                        <figure><a href="#"><img src="./images/female.jpg" alt=""></a>
                                             <figcaption class="moverspackers-bgcolor">
                                                 <h6><a href="#">Sofia Harris</a></h6>
                                                 <span>Manager</span>
@@ -521,7 +544,7 @@
                                         </figure>
                                     </li>
                                     <li class="col-md-3">
-                                        <figure><a href="#"><img src="extra-images\team-modern-img3.jpeg" alt=""></a>
+                                        <figure><a href="#"><img src="./images/blonde.jpg" alt=""></a>
                                             <figcaption class="moverspackers-bgcolor">
                                                 <h6><a href="#">Lily Hemsworth</a></h6>
                                                 <span>Manager</span>
@@ -540,7 +563,7 @@
                                         </figure>
                                     </li>
                                     <li class="col-md-3">
-                                        <figure><a href="#"><img src="extra-images\team-modern-img4.jpeg" alt=""></a>
+                                        <figure><a href="#"><img src="./images/maner.jpg" alt=""></a>
                                             <figcaption class="moverspackers-bgcolor">
                                                 <h6><a href="#">Olivia Hilson</a></h6>
                                                 <span>Manager</span>
@@ -663,8 +686,18 @@
         <!--// Footer \\-->
 
         <!--// Main Wrapper \\-->
-        <script src="./script/scroller.js">
+        <!--         <script src="./script/scroller.js">
+        </script> -->
+        <script type="text/javascript">
+            function slowScroll(id) {
+                var offset = 0;
+                $('html, body').animate({
+                    scrollTop: $(id).offset().top - offset
+                }, 1500);
+                return false;
+            }
         </script>
+
         <!-- jQuery (necessary for JavaScript plugins) -->
         <script type="text/javascript" src="script\bootstrap.js"></script>
         <script type="text/javascript" src="script\jquery.countdown.min.js"></script>
